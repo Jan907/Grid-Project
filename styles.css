@@ -70,7 +70,7 @@
 }
 
 /* HEADER TOP */
-.top {
+.top, .bottom {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -91,14 +91,14 @@
     height: 20px;
 }
 
-.topleft {
+.topleft, .bottomleft {
     display: flex;
     gap: 8px;
     align-items: center;
     flex: 1;
 }
 
-.topright {
+.topright, .bottomright {
     display: flex;
     gap: 8px;
     align-items: center;
@@ -112,8 +112,35 @@
 }
 
 
+/* HEADER BOTTOM */
 
 
+.greeting {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
 
+.username2 {
+    font-weight: 700;
+}
 
+.userpic2 {
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 6px;
+}
 
+button {
+    width: 80px;
+    background-color: rgb(79, 159, 251);
+    color: white;
+    border-radius: 200px;
+    border: none;
+    padding: 6px
+}
+
+.bottomright {
+    gap: 16px;
+}
