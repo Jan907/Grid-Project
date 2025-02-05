@@ -162,10 +162,55 @@ button {
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
     background-color: aliceblue;
+    gap: 12px;
 }
 
 .ctitle {
     font-weight: 500;
     line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.clgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    align-items: stretch;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    border-left: 6px solid yellowgreen;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0px lightgray;
+    height: 1fr;
+}
+
+.cardtitle {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 0px;
+}
+
+.cardcontent {
+    font-size: 12px;
+    color: #8c8c8c;
+    max-width: 40ch;
+    padding-bottom: 10px;
+}
+
+.scontainer {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.splace {
+    height: 20px;
+    width: 20px;
+    background-color: darkgray;
+    border-radius: 50%;
 }
 
